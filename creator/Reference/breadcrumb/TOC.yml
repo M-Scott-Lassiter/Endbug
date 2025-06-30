@@ -1,0 +1,40 @@
+- name: Minecraft Bedrock documentation
+  tocHref: /minecraft/creator/
+  topicHref: /minecraft/creator/index
+  items:
+  - name: Entity Documentation
+    tocHref: /minecraft/creator/reference/content/entityreference/
+    topicHref: /minecraft/creator/reference/content/entityreference/index
+  - name: Block Documentation
+    tocHref: /minecraft/creator/reference/content/blockreference/
+    topicHref: /minecraft/creator/reference/content/blockreference/index
+  - name: Item Documentation
+    tocHref: /minecraft/creator/reference/content/itemreference/
+    topicHref: /minecraft/creator/reference/content/itemreference/index
+  - name: Recipe Documentation
+    tocHref: /minecraft/creator/reference/content/recipereference/
+    topicHref: /minecraft/creator/reference/content/recipereference/index
+  - name: Volume Documentation
+    tocHref: /minecraft/creator/reference/content/volumereference/
+    topicHref: /minecraft/creator/reference/content/volumereference/index
+  - name: Molang Documentation
+    tocHref: /minecraft/creator/reference/content/molangreference/
+    topicHref: /minecraft/creator/reference/content/molangreference/index
+  - name: Addons Documentation
+    tocHref: /minecraft/creator/reference/content/addonsreference/
+    topicHref: /minecraft/creator/reference/content/addonsreference/index
+  - name: Animations Documentation
+    tocHref: /minecraft/creator/reference/content/animationsreference/
+    topicHref: /minecraft/creator/reference/content/animationsreference/index
+  - name: Features Documentation
+    tocHref: /minecraft/creator/reference/content/featuresreference/
+    topicHref: /minecraft/creator/reference/content/featuresreference/index
+  - name: Fogs Documentation
+    tocHref: /minecraft/creator/reference/content/fogsreference/
+    topicHref: /minecraft/creator/reference/content/fogsreference/examples/fogsintroduction
+  - name: Schema Documentation
+    tocHref: /minecraft/creator/reference/content/schemasreference/
+    topicHref: /minecraft/creator/reference/content/schemasreference/index
+  - name: Particle Documentation
+    tocHref: /minecraft/creator/reference/content/particlesreference/
+    topicHref: /minecraft/creator/reference/content/particlesreference/index

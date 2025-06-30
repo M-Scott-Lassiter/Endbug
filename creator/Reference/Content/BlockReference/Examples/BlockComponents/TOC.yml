@@ -1,0 +1,36 @@
+ - name: Block Components List
+   href: BlockComponentsList.md 
+ - name: collision_box
+   href: minecraftBlock_collision_box.md
+ - name: crafting_table
+   href: minecraftBlock_crafting_table.md
+ - name: destructible_by_explosion
+   href: minecraftBlock_destructible_by_explosion.md
+ - name: destructible_by_mining
+   href: minecraftBlock_destructible_by_mining.md
+ - name: display_name
+   href: minecraftBlock_display_name.md
+ - name: flammable
+   href: minecraftBlock_flammable.md
+ - name: friction
+   href: minecraftBlock_friction.md
+ - name: geometry
+   href: minecraftBlock_geometry.md
+ - name: light_dampening
+   href: minecraftBlock_light_dampening.md
+ - name: light_emission
+   href: minecraftBlock_light_emission.md    
+ - name: loot
+   href: minecraftBlock_loot.md
+ - name: map_color
+   href: minecraftBlock_map_color.md
+ - name: material_instances
+   href: minecraftBlock_material_instances.md
+ - name: placement_filter
+   href: minecraftBlock_placement_filter.md
+ - name: selection_box
+   href: minecraftBlock_selection_box.md
+ - name: transformation
+   href: minecraftBlock_transformation.md
+ - name: unit_cube
+   href: minecraftBlock_unit_cube.md
