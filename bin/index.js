@@ -6,17 +6,14 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import chalk from 'chalk'
 
-const endbugPkgVersion = JSON.parse(
-    fs.readFileSync(new URL('../package.json', import.meta.url), 'utf8')
-).version
-
 // eslint-disable-next-line no-underscore-dangle
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const pkg = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../package.json'), 'utf8'))
 const args = process.argv.slice(2)
 
 // --version flag
 if (args.includes('--version')) {
-    console.log(endbugPkgVersion)
+    console.log(pkg.version)
     process.exit(0)
 }
 
