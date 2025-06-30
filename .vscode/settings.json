@@ -1,0 +1,11 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "never"
+    },
+    "editor.formatOnSave": false,
+    "eslint.validate": ["javascript"],
+    "prettier.documentSelectors": ["**/*.{js,json,css,html,php}"],
+    "prettier.enableDebugLogs": false,
+    "prettier.requireConfig": true
+}

@@ -1,0 +1,12 @@
+{
+    "name": "endbug",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "format": "wayfindpc format",
+        "lint": "wayfindpc lint"
+    },
+    "devDependencies": {
+        "wayfindpc": "^1.2.0"
+    }
+}
