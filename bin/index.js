@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url'
 import chalk from 'chalk'
 
 const endbugPkgVersion = JSON.parse(
-    fs.readFileSync(new URL('./package.json', import.meta.url), 'utf8')
+    fs.readFileSync(new URL('../package.json', import.meta.url), 'utf8')
 ).version
 
 // eslint-disable-next-line no-underscore-dangle
