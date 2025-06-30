@@ -1,6 +1,6 @@
 {
     "name": "endbug",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Debug message relay tool for Minecraft Bedrock addon developers",
     "type": "module",
     "bin": {
