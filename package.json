@@ -1,10 +1,33 @@
 {
     "name": "endbug",
     "version": "0.0.1",
+    "description": "Debug message relay tool for Minecraft Bedrock addon developers",
     "type": "module",
+    "bin": {
+        "endbug": "./bin/index.js"
+    },
+    "exports": {
+        "./server": "./lib/server.js",
+        "./debugger": "./lib/endbug.js"
+    },
+    "author": "Wayfind Entertainment LLC",
+    "license": "MIT",
+    "keywords": [
+        "minecraft",
+        "bedrock",
+        "addon",
+        "debug",
+        "cli",
+        "devtools"
+    ],
     "scripts": {
         "format": "wayfindpc format",
-        "lint": "wayfindpc lint"
+        "lint": "wayfindpc lint",
+        "start": "node lib/server.js"
+    },
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "express": "^5.1.0"
     },
     "devDependencies": {
         "wayfindpc": "^1.2.0"
